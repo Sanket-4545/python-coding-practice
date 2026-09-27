@@ -11,9 +11,9 @@ if Salary < 30000 :
     print("Your tax is :" , tax)
 
 elif  Salary <= 70000:
-    tax = tax = (Salary / 100)* 15
-    print("Your tax is:" ,tax)
+   tax = (Salary / 100) * 15
+   print("Your tax is:" ,tax)
 
 else:
-    tax = tax = (Salary / 100)* 25
+    tax = (Salary / 100)* 25
     print("Your tax is :", tax)
